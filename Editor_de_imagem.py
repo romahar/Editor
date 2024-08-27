@@ -20,6 +20,7 @@ class App(ctk.CTk):
         self.title('Photo Editor')
         self.minsize(800, 500)
         
+        
         # layout
         self.rowconfigure(0, weight=1)
         self.columnconfigure(0, weight=2, uniform='a')
